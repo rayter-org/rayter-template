@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rayter!</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.css" media="screen">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
+</head>
+<body class="">
+
+
+    <p class="nav">
+        <a class="mobile" href="#global-chart">Global Chart</a>
+    </p>
+
+    <h1>Rayter</h1>
+    <p>
+        Find game ratings for our games here!
+    </p>
+
+    <div class="tables">
+        <div class="games">
+            <h2>Games</h2>
+            <table>
+                <tr>
+                    <th>Game</th>
+                    <th>Leader</th>
+                    <th>Leader rating</th>
+                    <th>Total games</th>
+                </tr>
+                
+                    
+                    
+                        
+                    
+                    
+                    <tr>
+                        <td class="name">
+                            <a href="/hearts">Hjärter</a>
+                        </td>
+                        <td class="name avatar">
+                            
+                                
+                                <a href="/user/Jonatan">Jonatan</a>
+                            </td>
+                        <td class="number">1144</td>
+                        <td class="count number">82</td>
+                    </tr>
+                
+            </table>
+        </div>
+
+        <div id="global-chart">
+            <h2>Overall placement</h2>
+            <table>
+                <tr>
+                    <th>Position</th>
+                    <th>Name</th>
+                    <th>Average placement</th>
+                </tr>
+                
+            </table>
+            <p>
+                100% = first in all games, 0% = last in all games.
+            </p>
+            <p>
+                The global chart includes only players
+                with at least three games played and it only counts placements in games where the
+                player has played at least three matches.
+            </p>
+            <p>
+                The average is weighted, meaning
+                that a game where the player has played many matches will count more towards
+                the average than a match where the player only played a few matches.
+            </p>
+        </div>
+
+        <div id="event-log">
+            <h2>Events</h2>
+            <table>
+                <tr>
+                    <th>Event</th>
+                </tr>
+                
+            </table>
+        </div>
+    </div>
+
+
+<div class="footer">
+    <p>
+        By Peter Jaric and Jonatan Heyman.
+    </p>
+</div>
+</body>
+</html>

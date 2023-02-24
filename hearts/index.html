@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Hjärter - Rayter!</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.css" media="screen">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
+</head>
+<body class="game">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="/static/js/charts.js"></script>
+    
+    <script>
+        $(function() {
+            var chartInitialized = false;
+
+            $('#toggle-chart').click(function() {
+                $('#chart-container').fadeToggle();
+
+                if (!chartInitialized) {
+                    let ctx = $('#chart').get(0).getContext('2d');
+
+                    fetch('/Hjärter.json')
+                        .then(function(response) {
+                            return response.json();
+                        })
+                        .then(function(gameData) {
+                            chartInitialized = true;
+                            setupChart(ctx, gameData);
+                        });
+                }
+            });
+        });
+    </script>
+    
+    <p class="nav">
+        <a href="/">Home</a>
+        <a href="/new?game=Hjärter">Add new match result</a>
+    </p>
+    <h1>Hjärter</h1>
+    <button id="toggle-chart">Toggle chart</button> 
+    <div id="chart-container">
+        <canvas id="chart" class="chart"></canvas>
+    </div>
+    <table>
+        <tr>
+            <th>Position</th>
+            <th>Name</th>
+            <th class="number">Number of games</th>
+            <th class="number">Rating</th>
+            <th class="number">Change</th>
+        </tr>
+        
+        
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">1</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Jonatan">Jonatan</a>                
+                </td>
+                <td class="game_count">39</td>
+                <td class="rating">1144</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">2</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Jakob">Jakob</a>                
+                </td>
+                <td class="game_count">25</td>
+                <td class="rating">1113</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">3</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Axel">Axel</a>                
+                </td>
+                <td class="game_count">22</td>
+                <td class="rating">1108</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">4</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Hugo">Hugo</a>                
+                </td>
+                <td class="game_count">35</td>
+                <td class="rating">1091</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">5</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Viveka">Viveka</a>                
+                </td>
+                <td class="game_count">17</td>
+                <td class="rating">1058</td>
+                <td class="delta plus">9</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">6</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Peter">Peter</a>                
+                </td>
+                <td class="game_count">70</td>
+                <td class="rating">1043</td>
+                <td class="delta plus">3</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">7</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Harald">Harald</a>                
+                </td>
+                <td class="game_count">51</td>
+                <td class="rating">1038</td>
+                <td class="delta minus">-7</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">8</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Joel">Joel</a>                
+                </td>
+                <td class="game_count">2</td>
+                <td class="rating">1029</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">9</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Agnes">Agnes</a>                
+                </td>
+                <td class="game_count">8</td>
+                <td class="rating">1027</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">10</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Kaj">Kaj</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">1021</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">11</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Jossan">Jossan</a>                
+                </td>
+                <td class="game_count">2</td>
+                <td class="rating">1007</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">12</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Marta">Marta</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">1006</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">13</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Lisa">Lisa</a>                
+                </td>
+                <td class="game_count">4</td>
+                <td class="rating">1000</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">14</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/MargaretaT">MargaretaT</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">993</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">15</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Britta">Britta</a>                
+                </td>
+                <td class="game_count">15</td>
+                <td class="rating">988</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">16</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/HaraldOtto">HaraldOtto</a>                
+                </td>
+                <td class="game_count">25</td>
+                <td class="rating">982</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">17</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Elon">Elon</a>                
+                </td>
+                <td class="game_count">31</td>
+                <td class="rating">973</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">18</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Harriet">Harriet</a>                
+                </td>
+                <td class="game_count">2</td>
+                <td class="rating">933</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">19</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Mia">Mia</a>                
+                </td>
+                <td class="game_count">5</td>
+                <td class="rating">923</td>
+                <td class="delta minus">-5</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">20</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Margareta">Margareta</a>                
+                </td>
+                <td class="game_count">5</td>
+                <td class="rating">920</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">21</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Hanna">Hanna</a>                
+                </td>
+                <td class="game_count">11</td>
+                <td class="rating">916</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">22</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Rakel">Rakel</a>                
+                </td>
+                <td class="game_count">4</td>
+                <td class="rating">906</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">23</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Jessica">Jessica</a>                
+                </td>
+                <td class="game_count">34</td>
+                <td class="rating">899</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">24</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Leo">Leo</a>                
+                </td>
+                <td class="game_count">5</td>
+                <td class="rating">884</td>
+                <td class="delta">0</td>
+            </tr>
+        
+    </table>
+    <p class="nav">
+            <a href="https://github.com/peterjaric/rayter-games/blob/master/Hjärter.txt">View played games on GitHub</a>
+            <a href="/refresh_game/Hjärter">Refresh from Github</a>.
+        </p>
+
+
+<div class="footer">
+    <p>
+        By Peter Jaric and Jonatan Heyman.
+    </p>
+</div>
+</body>
+</html>
