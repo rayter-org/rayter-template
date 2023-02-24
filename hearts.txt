@@ -1,0 +1,584 @@
+score_type lowscore
+game_name Hjärter
+
+game 2010-08-02 22:00
+Viveka  	82
+Peter		80
+Margareta	121
+Hugo		35
+Harald		56
+Jakob		68
+
+game 2010-08-03 15:00
+Peter		52
+Hugo		0
+Jakob		25
+
+game 2010-08-03 15:30
+Peter		35
+Hugo		5
+Jakob		65
+
+game 2010-08-03 16:00
+Peter		33
+Hugo		59
+Jakob		12
+
+game 2010-08-03 16:00
+Peter		22
+Hugo		102
+Jakob		84
+
+game 2010-08-03 23:00
+Viveka		19
+Peter		109
+Margareta	70
+Hugo		2
+Harald		58
+Jakob		41
+Jessica		96
+
+game 2010-08-04 15:00
+Peter		52
+Margareta	27
+Hugo		75
+Harald		52
+Jessica		54
+
+game 2010-08-06 22:00
+Peter		51
+Harald		46
+Viveka		36
+Jonatan		75
+
+game 2010-08-08 22:00
+Peter		73
+Harald		52
+Jonatan		95
+Hugo		103
+Jessica		96
+
+game 2010-08-10 22:00
+Peter		52
+Viveka		11
+Axel		103
+Hanna		42
+
+game 2010-08-11 22:00
+Peter		52
+Viveka		34
+Axel		45
+Hanna		25
+
+
+game 2011-12-24 22:00
+Jessica     95
+Hugo        77
+Jonatan     89
+Jakob       103
+
+game 2011-12-24 23:19
+Hugo        107
+Jonatan     96
+Peter       65
+Jakob       70
+
+game 2011-12-25 21:00
+Kaj         37
+Harald      72
+Jonatan     14
+Jessica     82
+Margareta   104
+
+game 2011-12-25 21:20
+Hugo        118
+Joel        98
+Jossan      89
+Jakob       111
+
+game 2011-12-25 21:20
+Peter       79
+Joel        30
+Jonatan     23
+Hugo        104
+Harald      76
+
+game 2011-12-27 23:30
+Hugo        86
+Jonatan     108
+Peter       52
+Jakob       87
+Harald      31
+
+game 2011-12-31 23:55
+Peter       89
+Harald      74
+Jakob       33
+Viveka      90
+
+game 2012-01-02 22:10
+Hanna       41
+Axel        50
+Jessica     33
+Harald      45
+Viveka      27
+Peter       1
+Jakob       37
+
+game 2012-01-03 23:45
+Hanna       106
+Jessica     58
+Harald      71
+Peter       95
+Jakob       110
+
+game 2012-04-05 23:20
+Jonatan     117
+Peter       95
+Jakob       80
+Harald      95
+
+game 2012-04-06 23:35
+Jonatan     101
+Peter       57
+Hugo        73
+Jakob       55
+
+game 2012-04-09 23:20
+Harald      112
+Peter       100
+Hugo        92
+Jakob       14
+Jessica     72
+
+game 2012-06-29 21:00
+Harald      4
+Hugo        27
+Jessica     6
+Jakob       15
+Jonatan     0
+Lisa        0
+
+game 2012-06-29 22:00
+Harald      109
+Peter       27
+Hugo        18
+Jakob       49
+Viveka      28
+Jonatan     34
+Lisa        47
+
+game 2012-06-30 22:00
+Harald      73
+Peter       88
+Hugo        69
+Jessica     94
+Viveka      107
+Jonatan     59
+Lisa        34
+
+game 2012-07-15 22:20
+Harald      6
+Peter       2
+Hugo        1
+Lisa	    54
+Viveka	    14
+Hanna	    1
+
+game 2012-12-27 22:28
+MargaretaT  105
+Jossan      94
+Jonatan     69
+Jakob       96
+
+game 2012-12-30 00:22
+Harald      80
+Jessica     72
+Viveka      121
+Peter       79
+Jakob       90
+
+game 2013-07-18 23:35
+Jonatan 38
+Hanna 82
+Viveka 41
+Peter 47
+
+game 2013-12-27 22:50
+Jonatan 68
+Hugo    68
+Harald  105
+Peter   67
+
+game 2014-01-25 22:30
+Jonatan 39
+Hugo    45
+Harald  52
+Peter   56
+Jessica 68
+
+game 2014-01-25 23:30
+Jonatan 1
+Hugo    20
+Harald  17
+Peter   40
+Jessica 52
+
+game 2014-02-18 23:00
+Viveka  15
+Harald  45
+Peter   44
+Jessica 52
+
+game 2014-04-18 23:00
+Viveka  5
+Harald  24
+Peter   9
+Jonatan 17
+Rakel   73
+
+game 2014-04-20 23:00
+Hugo    -10
+Harald  19
+Peter   37
+Jonatan 61
+Rakel   35
+
+game 2014-07-02 00:07
+Viveka  115
+Peter   39
+Jonatan 88
+Jakob   96
+
+game 2014-08-07 23:45
+Hugo    18
+Harald  101
+Peter   91
+Jonatan 102
+
+game 2014-12-28 23:40
+Hugo    78
+Harald  73
+Peter   40
+Jonatan 92
+Viveka  101
+
+game 2015-04-05 21:00
+Peter   53
+Jonatan 52
+Rakel   109
+Jakob   73
+
+game 2019-02-23 22:40
+Peter   51
+Jonatan 75
+Jessica 102
+Harald  112
+
+
+game 2019-05-05 21:33
+Jonatan 51
+Peter 39
+Rakel 118
+
+game 2019-06-30 16:01
+Agnes 89
+HaraldOtto 59
+Peter 99
+Elon 122
+
+game 2019-07-01 20:10
+Axel 62
+HaraldOtto 102
+Jessica 73
+Elon 55
+Agnes 78
+Peter 52
+Jakob 18
+
+game 2019-07-04 19:26
+HaraldOtto 97
+Jonatan 114
+Peter 107
+Jakob 81
+Elon 120
+
+game 2019-07-04 22:11
+HaraldOtto 30
+Jonatan 37
+Elon 116
+Axel 35
+Peter 42
+
+game 2019-07-05 13:53
+Elon 73
+Hugo 89
+HaraldOtto 116
+Peter 49
+Axel 37
+
+game 2019-07-05 20:33
+HaraldOtto 32
+Hanna 115
+Peter 27
+Jonatan 15
+Elon 46
+Axel 51
+
+game 2019-07-06 19:03
+Elon 79
+Harald 29
+Hanna 53
+Hugo 109
+Axel 68
+
+game 2019-07-07 20:59
+Axel 40
+Harald 52
+HaraldOtto 59
+Hanna 64
+Hugo 90
+Jonatan 103
+Peter 112
+
+game 2019-07-10 22:54
+HaraldOtto 104
+Harald 87
+Peter 99
+Jonatan 61
+Elon 91
+
+game 2019-07-12 21:46
+Britta 64
+Axel 101
+Jonatan 78
+HaraldOtto 82
+Elon 91
+Harald 51
+
+game 2019-07-31 18:50
+Agnes 98
+Elon 90
+HaraldOtto 122
+Peter 54
+
+game 2019-08-01 19:52
+Harald 44
+Margareta 103
+Elon 45
+HaraldOtto 35
+Britta 73
+Peter 36
+Jessica 28
+
+game 2019-12-25 21:24
+Jessica 23
+Elon 39
+Jonatan 79
+Peter 42
+Hugo 25
+
+game 2019-12-28 20:49
+HaraldOtto 54
+Agnes 54
+Britta 62
+Harald 67
+Elon 79
+Peter 77
+Jessica 101
+
+game 2019-12-29 15:22
+Elon 81
+Peter 37
+Britta 80
+Jessica 9
+HaraldOtto 53
+
+game 2019-12-30 20:07
+Britta 38
+HaraldOtto 39
+Elon 107
+Axel 46
+Jessica 30
+
+game 2019-12-31 21:58
+Elon 28
+Peter 42
+Jessica 60
+Jakob 0
+HaraldOtto 9
+Harald 7
+Axel 10
+
+game 2020-01-01 18:59
+Britta 26
+Leo 61
+Mia 48
+Harald 45
+
+game 2020-01-01 21:22
+Axel 49
+Harald 87
+Jessica 117
+Agnes 81
+Peter 56
+
+game 2020-02-21 21:36
+Elon 32
+Peter 39
+Jonatan 46
+Harald 56
+Jessica 113
+
+game 2020-07-11 19:29
+Britta 28
+Hugo 46
+Marta 33
+Peter 34
+Harald 28
+Jessica 65
+
+game 2020-07-13 20:20
+HaraldOtto 26
+Britta 38
+Elon 36
+Peter 51
+Leo 38
+Jessica 48
+Agnes 49
+
+game 2020-07-18 13:52
+Britta 63
+Jessica 116
+Elon 64
+HaraldOtto 63
+Axel 32
+
+game 2020-10-16 19:50
+Harald 64
+Peter 45
+Jonatan 19
+Jessica 28
+Hugo 26
+
+game 2020-10-17 19:55
+Harald 67
+Hugo 95
+Jonatan 35
+Peter 62
+
+game 2021-07-05 20:55
+Axel 18
+Harald 25
+Britta 54
+Peter 53
+Hugo 21
+Elon 6
+HaraldOtto 54
+
+
+game 2021-07-06 16:22
+HaraldOtto 63
+Elon 15
+Peter 37
+Harald 14
+
+game 2021-07-08 21:03
+Peter 21
+HaraldOtto 1
+Elon 27
+Jessica 5
+Britta 20
+Harriet 64
+Axel 19
+
+game 2021-07-10 20:15
+Jessica 25
+Axel 26
+Britta 50
+Agnes 10
+Peter 42
+Harald 29
+
+game 2021-07-15 18:48
+Jonatan 13
+Elon 27
+Harald 27
+Mia 58
+Peter 31
+
+game 2021-07-15 20:00
+Jonatan 13
+Elon 9
+Harald 15
+Mia 53
+Peter 28
+
+game 2021-07-26 19:08
+HaraldOtto 49
+Elon 69
+Peter 10
+Axel 26
+Agnes 28
+
+game 2021-07-27 19:38
+HaraldOtto 29
+Jessica 27
+Hanna 34
+Elon 66
+Harald 26
+Axel 26
+Hugo 0
+Peter 26
+
+game 2021-07-27 19:59
+Jessica 4
+Hanna 59
+Elon 1
+Harald 1
+Axel 11
+Peter 2
+
+game 2021-10-28 18:55
+Jonatan 22
+Harald 27
+Elon 30
+Peter 36
+Hugo 47
+Jessica 72
+
+game 2021-12-28 19:58
+Leo 115
+Peter 74
+Jonatan 21
+Jessica 78
+HaraldOtto 76
+
+game 2022-04-16 19:53
+Axel 0
+Elon 21
+Britta 7
+HaraldOtto 23
+Harald 0
+Leo 51
+
+game 2022-04-16 19:54
+Axel 1
+Elon 0
+Britta 13
+HaraldOtto 6
+Harald 50
+Leo 34
+
+game 2022-07-30 15:50
+Mia 54
+Elon 63
+Harriet 72
+Peter 40
+Britta 31
+
+game 2023-01-02 21:00
+Mia 46
+Peter 36
+Viveka 31
+Harald 43
