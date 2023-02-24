@@ -25,12 +25,12 @@ jobs:
 
       - name: Install and Build
         run: |
-          pip install rayter-generator
+          pip install --upgrade rayter-generator
           rayter-generate-website --games-path . --output ./_site
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-  
+
   deploy:
     environment:
       name: github-pages
