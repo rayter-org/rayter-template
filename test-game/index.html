@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Test Game - Rayter!</title>
+    <link rel="stylesheet" type="text/css" href="/static/css/normalize.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/static/css/main.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/css/selectize.css" media="screen">
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectize.js/0.12.6/js/standalone/selectize.min.js"></script>
+</head>
+<body class="game">
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+    <script src="/static/js/charts.js"></script>
+    
+    <script>
+        $(function() {
+            var chartInitialized = false;
+
+            $('#toggle-chart').click(function() {
+                $('#chart-container').fadeToggle();
+
+                if (!chartInitialized) {
+                    let ctx = $('#chart').get(0).getContext('2d');
+
+                    fetch('/Test Game.json')
+                        .then(function(response) {
+                            return response.json();
+                        })
+                        .then(function(gameData) {
+                            chartInitialized = true;
+                            setupChart(ctx, gameData);
+                        });
+                }
+            });
+        });
+    </script>
+    
+    <p class="nav">
+        <a href="/">Home</a>
+        <a href="/new?game=Test Game">Add new match result</a>
+    </p>
+    <h1>Test Game</h1>
+    <button id="toggle-chart">Toggle chart</button> 
+    <div id="chart-container">
+        <canvas id="chart" class="chart"></canvas>
+    </div>
+    <table>
+        <tr>
+            <th>Position</th>
+            <th>Name</th>
+            <th class="number">Number of games</th>
+            <th class="number">Rating</th>
+            <th class="number">Change</th>
+        </tr>
+        
+        
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">1</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Harriet">Harriet</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">1019</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">2</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Mia">Mia</a>                
+                </td>
+                <td class="game_count">2</td>
+                <td class="rating">1011</td>
+                <td class="delta plus">9</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">3</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Elon">Elon</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">1011</td>
+                <td class="delta">0</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">4</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Harald">Harald</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">1005</td>
+                <td class="delta plus">5</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">5</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Viveka">Viveka</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">990</td>
+                <td class="delta minus">-10</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">6</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Peter">Peter</a>                
+                </td>
+                <td class="game_count">2</td>
+                <td class="rating">985</td>
+                <td class="delta minus">-3</td>
+            </tr>
+        
+            
+                
+            
+            
+            <tr>
+                <td class="position">7</td>
+                <td class="name avatar">
+                    
+                    <a href="/user/Britta">Britta</a>                
+                </td>
+                <td class="game_count">1</td>
+                <td class="rating">980</td>
+                <td class="delta">0</td>
+            </tr>
+        
+    </table>
+    <p class="nav">
+            <a href="https://github.com/peterjaric/rayter-games/blob/master/Test Game.txt">View played games on GitHub</a>
+            <a href="/refresh_game/Test Game">Refresh from Github</a>.
+        </p>
+
+
+<div class="footer">
+    <p>
+        By Peter Jaric and Jonatan Heyman.
+    </p>
+</div>
+</body>
+</html>
