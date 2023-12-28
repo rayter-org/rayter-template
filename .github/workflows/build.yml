@@ -21,7 +21,7 @@ jobs:
       
       - name: Install and Build
         run: |
-          pip install --upgrade rayter-generator
+          pip install --upgrade 'rayter-generator==1.*'
           rayter-generate-website --games-path . --output ./_site
 
       - name: Upload artifact
