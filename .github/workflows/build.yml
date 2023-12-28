@@ -25,11 +25,7 @@ jobs:
           rayter-generate-website --games-path . --output ./_site
 
       - name: Upload artifact
-<<<<<<< HEAD
         uses: actions/upload-pages-artifact@v3
-=======
-        uses: actions/upload-pages-artifact@v1
->>>>>>> 1b2af68 (Add --upgrade flag)
 
   deploy:
     environment:
