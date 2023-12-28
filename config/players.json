@@ -1,0 +1,9 @@
+{
+      "Dahlia": {
+            "imageUrl": "https://images.example.com/dahlia.jpg"
+      },
+      "Lee": {
+            "displayName": "The Boardgamer",
+            "email": "boardgamer@example.com"
+      }
+}
